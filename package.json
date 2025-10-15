@@ -1,0 +1,45 @@
+{
+  "name": "@doedmannen/attempt-and-retry",
+  "version": "0.0.1",
+  "description": "A helper for retrying execution of logic that might throw (API calls etc.)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doedmannen/attempt-and-retry.git"
+  },
+  "keywords": [
+    "retry",
+    "attempt",
+    "time limitations",
+    "utility",
+    "helper",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/doedmannen/attempt-and-retry/issues"
+  },
+  "homepage": "https://github.com/doedmannen/attempt-and-retry#readme",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@typescript-eslint/eslint-plugin": "^8.44.1",
+    "@typescript-eslint/parser": "^8.44.1",
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "jest": "^30.1.3"
+  }
+}
